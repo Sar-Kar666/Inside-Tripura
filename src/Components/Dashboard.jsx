@@ -1,23 +1,29 @@
-import { Facebook } from "./icons/Facebook";
-import { Insta } from "./icons/Ista";
-import { LoaderFive } from "./Loader";
+
+import { Carousel } from "antd";
 import { LoaderFiveDemo } from "./LoaderFiveDemo";
+import AdjustableCarousel from "./Carousel";
+import CarouselDemo from "./Carousel";
+import LargeCarousel from "./Carousel";
 
 export function Dashboard(){
     return<div>
-       <div className="text-white text-6xl font-bold ">
-        <div>Comming soon</div>
-        <div></div>
+       <div className="">
+        <div className="h">
+       <LargeCarousel/>
+        </div>
+      
         </div> 
 
         <div className="pt-10" >
-            <div className="text-white text-lg" >Something crazy is on its way!!</div>
+      
         </div>
 
         <div className="text-white pt-10 text-xl flex items-center ">
           <LoaderFiveDemo/> 
+       
           {/* <Insta/>
           <Facebook/> */}
         </div>
+       
     </div>
 }
