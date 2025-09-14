@@ -1,28 +1,28 @@
 
-import { Carousel } from "antd";
 import { LoaderFiveDemo } from "./LoaderFiveDemo";
-import AdjustableCarousel from "./Carousel";
-import CarouselDemo from "./Carousel";
+
 import LargeCarousel from "./Carousel";
+import TypewriterSection from "./TypewriterSection";
+import SocialGuide from "./SocialGuide";
 
 export function Dashboard(){
     return<div>
        <div className="">
         <div className="h">
-       <LargeCarousel/>
+             <LargeCarousel/> 
+          {/* <TypewriterSection/> */}
+
+          <SocialGuide/>
+     
         </div>
       
         </div> 
 
-        <div className="pt-10" >
-      
-        </div>
 
         <div className="text-white pt-10 text-xl flex items-center ">
-          <LoaderFiveDemo/> 
-       
-          {/* <Insta/>
-          <Facebook/> */}
+          {/* <LoaderFiveDemo/>  */}
+          
+        
         </div>
        
     </div>
